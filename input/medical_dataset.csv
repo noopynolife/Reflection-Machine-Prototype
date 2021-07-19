@@ -1,0 +1,35 @@
+diagnose;orgaan;pathogeen;primaire symptomen (kenmerkend);secundaire symptomen (veel voorkomend);tertiaire symptomen (zeldzaam);mogelijk;behandeling;behandelvorm;prognose
+appendicitis;blindedarm;ontsteking;"McBurney's sign; toename pijn bij bewegen";"buikpijn (rechts); buikpijn (onder); misselijkheid; braken; winderigheid; opgeblazen gevoel; gevoelige buik";;ja;-;-;-
+cholecystitis;galblaas;onsteking;Murphy's sign;"koorts; rillingen; icterus; buikpijn (koliek); buikpijn (rechts); buikpijn (boven); gevoelige buik";;ja;-;-;-
+diverticulitis;darmen;ontsteking;aanhoudende pijn;"buikpijn (links); buikpijn (onder); misselijkheid; braken; koorts; gevoelige buik; obstipatie";;ja;-;-;-
+drug respons;maag;anders;;"jeuk; huid uitslag; buikpijn; brandend gevoel bij urineren; afwijkende urine";;ja;-;-;-
+EUG (buitenbaarmoederlijke zwangeschap);baarmoeder;obstructie;vaginaal bloeden;"buikpijn (onder); schouderpijn; ongesteldheid gemist; drang naar stoelgang; gevoelige buik";;vrouwen;-;-;-
+galstenen;galblaas;obstructie;moeite met stilzitten;"buikpijn (koliek); icterus; koorts; misselijkheid; buikpijn (rechts); buikpijn (boven); rugpijn; toename pijn na eten";;ja;-;-;-
+GERD (refluxziekte);oesophagus;onsteking;;"buikpijn; brandend maagzuur; tongzweren; braken; hoesten; pijn in de borst";;ja;-;-;-
+nierbekkenontsteking;nieren;ontsteking; ;"buikpijn (flanken); flinke pijn; recent urineweginfectie ";;-;-;-;-
+pancreatitis ;alvleesklier;ontsteking;;"icterus; diarree; misselijkheid; braken; koorts; gewichtsverlies; rugpijn; schouderpijn (links); hyperglycemie; gevoelige buik; buikpijn (boven)";;ja;-;-;-
+uretercarcinoom;ureter;neoplasma;;"hematurie; gewichtsverlies; obstructie";;zeldzaam;operatie;-;-
+ziekte van Crohn;darmen;ontsteking;krampen;"diarree; koorts; vermoeidheid; bloed in ontlasting; verminderde eetlust; fistula (anus)";;ja;-;-;-
+blaaskanker ;blaas;neoplasma;;"hematurie; gewichtsverlies; buikpijn";;zeldzaam;"chemo; blaasspoelingen; radicale cystectomie";curatief;goed
+bloeding in de lever ;lever;bloeding;;"zwelling lever; buikpijn; oprek leverkapsel; hemodynamische instabiliteit; buikpijn (rechts); buikpijn (boven)";;ja;"stollingsfactoren; bloed aanvullen; pijnstilling";curatief;goed
+cystitis (blaasontsteking);blaas;ontsteking;pijn bij het plassen ;"buikpijn (onder); hematurie; vaker plasdrang; komt minder volume uit (plas); vaker bij vrouwen (na conceptie)";;ja;operatie;curatief;goed
+divertikelbloeding;darmen;bloeding;;"rectaal bloedverlies; afwijkende defecatie (diaree of juist constipatie); geen pijn normaal gesproken ";;ja;bloeding stoppen;expectatief;goed
+ingeklemde hernia;anders;obstructie;;"buikpijn (onder); zwelling aan de onderbuik; toename pijn met persen; toename zwelling met persen ";;ja;operatie;curatief;goed
+Leverobstructie ;lever;obstructie;;"icterus; buikpijn (rechts); buikpijn (boven)";;zeldzaam;operatie;curatief;goed
+maag ulcer ;duodenum;ontsteking;;"buikpijn (boven); rugpijn; pijn met eten; oprispingen; brandend maagzuur ";;ja;operatie;curatief;goed
+maagbloeding;maag;bloeding;;"bloedbraken; melaena; ijzeranemie; shock; buikpijn; misselijkheid";;ja;"endoscopie; coilen; chirurgie";curatief;goed
+nierkanker ;nieren;neoplasma;;"hematurie; buikpijn (flanken); shock; gewichtsverlies";;ja;"operatie; immunotherapie";-;goed
+nierstenen;nieren;obstructie;;"buikpijn (koliek); men moet blijven bewegen; stilzitten maakt het erger ";;ja;-;-;goed
+nierstenen;ureter;obstructie;;"buikpijn (koliek); buikpijn (onder); wel aandrang; plassen verhinderd; hematurie";;-;-;expectatief;goed
+pylorushypertrofie;maag;obstructie;;"misselijkheid; opgeblazen gevoel; braken";;kinderen;wisselend;curatief;goed
+alvleesklierbloeding ;alvleesklier;bloeding;;"misselijkheid; braken; koorts; buikpijn (boven)";;zeldzaam;-;-;matig
+leverkanker ;lever;neoplasma;;"gewichtsverlies; icterus; vermoeidheid; sluipend ";;ja;"chemo; bestraling; operatie";palliatief;matig
+varicesbloedingen;oesophagus;bloeding;;"bloedbraken; bekend met leverfalen of maagproblemen; bloed ophoesten; misselijkheid ";;ja;"bloed aanvullen; endoscopie; coilen; chirurgie";curatief;matig
+nierangiomyolipomen;nieren;bloeding;;"hematurie; buikpijn (flanken); shock";;ja;operatie;curatief;ooed
+12-vingerige darmkanker ;duodenum;neoplasma;;"gewichtsverlies; misselijkheid; braken";;zeldzaam;whipple resectie;curatief;redelijk
+darmkanker ;darmen;neoplasma;;"bloedverlies; gewichtsverlies; obstipatie; anemie; sluipend beloop ";;ja;"chemo; operatie";-;redelijk
+verlittekening oesophagus;oesophagus;obstructie;;slikproblemen;;ja;obstructie verwijderen;curatief;redelijk
+alvleesklierkanker ;alvleesklier;neoplasma;;"icterus; gewichtsverlies; verminderde eetlust";;ja;"chemo; operatie";palliatief;slecht
+maagcarcinoom;maag;neoplasma;globus gevoel;"verminderde eetlust; gewichtsverlies; melaena";"misselijkheid;  braken";ja;"chemo; bestraling; operatie";curatief;slecht
+oesophaguscarcinoom;oesophagus;neoplasma;;"passageklachten; gewichtsverlies; moeite met eten; moeite met slikken ";;ja;"chemo; bestraling";"palliatief; curatief";slecht
+maagzweer;maag;ontsteking;;"maagpijn; opboeren; misselijkheid; braken; brandend maagzuur";;ja;operatie;curatief;wisselend
