@@ -10,7 +10,7 @@ import re
 class _module (object):    
     
     """
-    A Module must support some kind falsification function that produces feedback.  
+    A Module must support some kind falsifying function falsify() that produces feedback for reflection.  
     """  
     def __init__(self):  
         self._feedback = None
@@ -20,7 +20,7 @@ class _module (object):
     
     def getFeedback(self):
         if self._feedback == None:
-            raise ValueError("Falsification Machine error: getFeedback() called before falsify()")
+            raise ValueError("Reflection Machine error: getFeedback() called before falsify()")
         return self._feedback
     
 class m0a (_module):
@@ -57,7 +57,7 @@ class m0b (_module):
         try:
             keywords = self._lookup_symptoms(case, lookup) #(dcs)
         except:
-            return "Falsification module 0b failed to interpret given case."
+            return "Reflection module 0b failed to interpret given case."
         
         for i in range(len(keywords)):
             if i > 0 and keywords[i] != 0:
@@ -150,12 +150,12 @@ class m1 (_module):
         try:
             a = df.loc[df['diagnose'] == support].iloc[0]  #(dcs)
         except:
-            return 'Falsification module 1 failed to interpret support solution.'
+            return 'Reflection module 1 failed to interpret support solution.'
 
         try:
             b = df.loc[df['diagnose'] == user].iloc[0] #(e
         except:
-            return 'Falsification module 1 failed to interpret user solution.'     
+            return 'Reflection module 1 failed to interpret user solution.'     
 
         analysis = "Module 1 says: Did you consider the following?\n"
         analysis += self._do_evaluate(a, b, df)
@@ -191,12 +191,12 @@ class m2a (m1):
         try:
             a = self._lookup_symptoms(symptoms, df) #(dcs)
         except:
-            return "Falsification module 2 failed to interpret given case."
+            return "Reflection module 2 failed to interpret given case."
         
         try:
             b = df.loc[df['diagnose'] == user].iloc[0]
         except:
-            return 'Falsification module 2 failed to interpret given solution.'  
+            return 'Reflection module 2 failed to interpret given solution.'  
 
         analysis = "Module 2 says: Did you consider the following?\n"
         analysis += self._do_evaluate(a, b, df)
@@ -244,12 +244,12 @@ class m3 (m1):
         try:
             a = df.loc[df['diagnose'] == generated].iloc[0]  #(dcs)
         except:
-            return "Falsification module 1 failed to interpret 'generated' solution."
+            return "Reflection module 1 failed to interpret 'generated' solution."
 
         try:
             b = df.loc[df['diagnose'] == user].iloc[0] #(e
         except:
-            return 'Falsification module 1 failed to interpret user solution.'     
+            return 'Reflection module 1 failed to interpret user solution.'     
 
         analysis = "Module 3 says: Did you consider the following?\n"
         analysis += self._do_evaluate(a, b, df)

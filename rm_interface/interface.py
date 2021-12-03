@@ -7,7 +7,7 @@ Created on Mon Nov 23 13:46:08 2020
 
 
 from PyQt5 import QtWidgets
-from fm_interface import question_ui, fm_ui
+from rm_interface import question_ui, rm_ui
 import pandas as pd
 import time
 
@@ -74,7 +74,7 @@ class Window(QtWidgets.QMainWindow):
             self.row = pd.Series(0, index=self.answers.columns)
             self.row["case_id"] = self.case_id
             self.row["preliminary answer"] = self.choice
-            self.startFMWindow()
+            self.startRMWindow()
             
     def secondAttempt(self):
         time_stop = time.time()
@@ -96,7 +96,7 @@ class Window(QtWidgets.QMainWindow):
         self.case_id += 1
         if (self.case_id < len(self.cases)):
             self.startQuestionWindow()
-            #self.startReflectWindow()
+            #self.startEvaluationWindow()
             
         else:
             self.printResults(self.output_path)
@@ -113,13 +113,13 @@ class Window(QtWidgets.QMainWindow):
         self.show()
         self.time_start = time.time()
         
-    def startFMWindow(self):
-        self.m_ui = fm_ui.Ui_MainWindow()
+    def startRMWindow(self):
+        self.m_ui = rm_ui.Ui_MainWindow()
         self.m_ui.setupUi(self)
         self.m_ui.pushButton.clicked.connect(self.startConfirmWindow)
         
-        # Set FM text
-        self.m_ui.label_2.setText(self.cases.iloc[self.case_id]['fm'])
+        # Set RM text
+        self.m_ui.label_2.setText(self.cases.iloc[self.case_id]['rm'])
         self.m_ui.label_2.adjustSize()
         
         self.show()

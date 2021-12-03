@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'reflection.ui'
+# Form implementation generated from reading ui file 'evaluation.ui'
 #
 # Created by: PyQt5 UI code generator 5.9.2
 #
@@ -206,7 +206,7 @@ class Ui_Dialog(object):
         self.label_1.setText(_translate("Dialog", "Ik heb volledige controle over wat ik doe"))
         self.label_2.setText(_translate("Dialog", "De diagnose was een bewuste beslissing"))
         self.label_3.setText(_translate("Dialog", "Het DOS heeft mijn antwoord beïnvloed "))
-        self.label_4.setText(_translate("Dialog", "De FM heeft mijn antwoord beinvloed."))
+        self.label_4.setText(_translate("Dialog", "De RM heeft mijn antwoord beinvloed."))
         self.label_5.setText(_translate("Dialog", "Ik ben volledig verantwoordlijk voor alles wat mijn acties teweegbrengen"))
         self.label_6.setText(_translate("Dialog", "1"))
         self.label_7.setText(_translate("Dialog", "2"))

@@ -7,8 +7,8 @@ This script was used to produce the data that was analyzed
 import pandas as pd
 import scipy.stats as stats
 
-from falsification_machine.aggregators import v1, v2, v3, v4, v5
-from falsification_machine.modules import m0a, m0b, m1, m2a, m2b, m3
+from reflection_machine.aggregators import v1, v2, v3, v4, v5
+from reflection_machine.modules import m0a, m0b, m1, m2a, m2b, m3
 
 INCLUDE_CONTROL = False
 
@@ -72,7 +72,7 @@ lookup = pseudorandata(features)
 
 
 """
-Auxilary function for generating all FM feedback
+Auxilary function for generating all RM feedback
 """
 def prep_data(i):
     # Prep data
@@ -89,7 +89,7 @@ def prep_data(i):
     return case, support
 
 """
-Auxilary function for prepping FM
+Auxilary function for prepping RM
 """
 def do_modules(case, support, user, lookup):
     m_0 = m0a()
@@ -137,7 +137,7 @@ def evaluate_modules(modules, sheet, plot=False):
         for choice in "abcd":
             user = cases.iloc[i][choice].strip().lower()
 
-            # Do FM things
+            # Do RM things
             output = do_modules(case, support, user, lookup)
             new_row = pd.Series(0).drop(0)
             for o in output:
